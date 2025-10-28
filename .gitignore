@@ -1,0 +1,9 @@
+# Ignore the secrets file
+.streamlit/secrets.toml
+
+# Ignore temporary data folder downloaded by the app
+temp_data/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc

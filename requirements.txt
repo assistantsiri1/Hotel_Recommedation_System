@@ -1,0 +1,6 @@
+streamlit==1.39.0
+pandas==2.2.2
+scikit-learn==1.5.0
+nltk==3.8.1
+streamlit-lottie==0.0.3
+kaggle==1.6.17

@@ -108,7 +108,7 @@ def load_and_preprocess_data():
     #st.info("Preprocessing data...")
     df = pd.read_csv(os.path.join(download_path, "zomato.csv"))
     
-    df1 = df.head(30000) # Using a sample for performance
+    df1 = df.head(10000) # Using a sample for performance
 
     # Basic cleaning
     df1 = df1.rename(columns={'approx_cost(for two people)': 'cost', 'listed_in(city)': 'city'})

@@ -6,4 +6,3 @@ nltk==3.8.1
 streamlit-lottie==0.0.3
 kaggle==1.6.17
 requests==2.31.0
-pyarrow==14.0.1
